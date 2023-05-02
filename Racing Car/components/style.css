@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+}
+
+.carGame{
+    background: url("/images/img6.png");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.col-one{
+    background-image: linear-gradient(red, yellow);
+}
+
+.col-two{
+    background-color: rgb(255, 164, 164);
+}
+
+.line{
+    height: 80vh;
+    margin-left: 2%;
+    position: relative;
+    animation: line 0.5s linear infinite;
+}
+
+@keyframes line{
+    0%{
+        top: 0px;
+    }
+    100%{
+        top: 130px;
+    }
+}
+
+#carOne{
+    height: 7rem;
+    margin-top: 58%;
+    position: relative;
+    margin-left: 40.5%;
+    transition-duration: 0.2s;
+}
+
+ #carThree{
+    height: 7rem;
+    display: block;
+    margin-left: 40.5%; 
+    margin-top: -76%;
+    position: relative;
+    animation: carThree 3s linear infinite;
+}
+
+@keyframes carThree{
+    0%{
+        top: 0px;
+    }
+    100%{
+        top:670px;
+    }
+}
+
+#over{
+    color: red;
+    margin-top: 25%;
+    display: none;
+    font-size: 120px;
+    font-weight: bold;
+    position: relative;
+}
+
+.score{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.scoring{
+    color: blue;
+    font-size: 90px;
+    font-weight: bold;
+}
+
